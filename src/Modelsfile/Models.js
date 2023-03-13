@@ -1,0 +1,85 @@
+export const languagemodels = [
+    {
+      name: "Q&A",
+      id: "1",
+      description: "Answer questions based on existing knowledge.",
+      option: {
+        model: "text-davinci-003",
+        temperature: 0.9,
+        max_tokens: 150,
+        top_p: 1,
+        frequency_penalty: 0.0,
+        presence_penalty: 0.6,
+        stop: [" Human:", " AI:"],
+      },
+    },
+    {
+      name: "Grammar correction",
+      id: "2",
+      description: "Corrects sentences into standard English.",
+      option: {
+        model: "text-davinci-003",
+        temperature: 0,
+        max_tokens: 60,
+        top_p: 1.0,
+        frequency_penalty: 0.0,
+        presence_penalty: 0.0,
+      },
+    },
+    {
+      name: "JavaScript helper chatbot",
+      id: "3",
+      description:
+        "This is a message-style chatbot that can answer questions about using JavaScript. It uses a few examples to get the conversation started. ",
+      option: {
+        model: "code-davinci-002",
+        temperature: 0,
+        max_tokens: 60,
+        top_p: 1.0,
+        frequency_penalty: 0.5,
+        presence_penalty: 0.0,
+        stop: ["You:"],
+      },
+    },
+    {
+      name: "SQL request",
+      id: "4",
+      description: "Create simple SQL queries.",
+      option: {
+        model: "text-davinci-003",
+        temperature: 0.3,
+        max_tokens: 60,
+        top_p: 1.0,
+        frequency_penalty: 0.0,
+        presence_penalty: 0.0,
+      },
+    },
+    {
+      name: "Friend chat",
+      id: "5",
+      description: "Emulate a text message conversation.",
+      option: {
+        model: "text-davinci-003",
+        temperature: 0.5,
+        max_tokens: 60,
+        top_p: 1.0,
+        frequency_penalty: 0.5,
+        presence_penalty: 0.0,
+        stop: ["You:"],
+      },
+    },
+    {
+      name: "Summarize for a 2nd grader",
+      id: "6",
+      description: "Translates difficult text into simpler concepts.",
+      option: {
+        model: "text-davinci-003",
+        temperature: 0.7,
+        max_tokens: 64,
+        top_p: 1.0,
+        frequency_penalty: 0.0,
+        presence_penalty: 0.0,
+      },
+    },
+  ];
+  
