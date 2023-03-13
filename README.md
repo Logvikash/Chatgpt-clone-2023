@@ -1,6 +1,6 @@
-to run this project you have to create one file, that is .env.loacl in outside of the src folder and past the api key
+to run this project you have to create one file, that is .env.local in outside of the src folder and past the api key
 
-In env
+In .env.local
 ========
 REACT_APP_OPENAI_API_KEY=`past your api key`
 ============================================
